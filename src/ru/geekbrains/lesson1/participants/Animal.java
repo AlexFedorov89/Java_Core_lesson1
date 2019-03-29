@@ -13,7 +13,7 @@ public abstract class Animal {
         this.color = color;
     }
 
-    abstract void Voice();
+    abstract void voice();
 
     public String getName() {
         return name;

@@ -11,6 +11,6 @@ public class Wall extends Obstacle {
 
     @Override
     public void doIt(Participant participant) {
-        participant.Jump(height);
+        participant.jump(height);
     }
 }

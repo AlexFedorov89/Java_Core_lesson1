@@ -14,12 +14,12 @@ public class Dog extends Animal implements Participant {
     }
 
     @Override
-    void Voice() {
+    void voice() {
         System.out.println("Гав-гав!");
     }
 
     @Override
-    public void Run(int distance) {
+    public void run(int distance) {
         if (distance > runDistance) {
             isOnDistance = false;
             return;
@@ -28,7 +28,7 @@ public class Dog extends Animal implements Participant {
     }
 
     @Override
-    public void Jump(int height) {
+    public void jump(int height) {
         if (height > jumpHeight) {
             isOnDistance = false;
             return;
@@ -37,7 +37,7 @@ public class Dog extends Animal implements Participant {
     }
 
     @Override
-    public void Swim(int distance) {
+    public void swim(int distance) {
         if (distance > runDistance) {
             isOnDistance = false;
             return;

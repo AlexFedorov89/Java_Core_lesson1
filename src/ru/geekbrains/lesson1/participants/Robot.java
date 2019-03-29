@@ -14,7 +14,7 @@ public class Robot implements Participant {
     }
 
     @Override
-    public void Run(int distance) {
+    public void run(int distance) {
         if (distance > runDistance) {
             isOnDistance = false;
             return;
@@ -23,13 +23,13 @@ public class Robot implements Participant {
     }
 
     @Override
-    public void Jump(int height) {
+    public void jump(int height) {
         // Эти роботы не умеют прыгать.
         isOnDistance = false;
     }
 
     @Override
-    public void Swim(int distance) {
+    public void swim(int distance) {
         if (distance > runDistance) {
             isOnDistance = false;
             return;

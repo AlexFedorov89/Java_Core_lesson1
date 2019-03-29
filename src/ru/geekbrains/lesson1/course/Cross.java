@@ -11,6 +11,6 @@ public class Cross extends Obstacle {
 
     @Override
     public void doIt(Participant participant) {
-        participant.Run(distance);
+        participant.run(distance);
     }
 }

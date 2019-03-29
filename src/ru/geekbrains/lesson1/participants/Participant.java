@@ -1,11 +1,11 @@
 package ru.geekbrains.lesson1.participants;
 
 public interface Participant {
-    void Run(int distance);
+    void run(int distance);
 
-    void Jump(int height);
+    void jump(int height);
 
-    void Swim(int distance);
+    void swim(int distance);
 
     boolean isOnDistance();
 

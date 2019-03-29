@@ -11,6 +11,6 @@ public class Water extends Obstacle {
 
     @Override
     public void doIt(Participant participant) {
-        participant.Swim(distance);
+        participant.swim(distance);
     }
 }
